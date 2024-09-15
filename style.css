@@ -71,7 +71,27 @@ main {
 
 main p {
     padding-block-start: 1rem;
+    padding-block-end: 1rem;
     font-size: 1.25rem;
     font-weight: 500;
     line-height: 30px;
+}
+
+/* ***********STYLING FOR PHONE********************* */
+
+@media (max-width: 393px) {
+    .small, .line {
+       display: none;
+    }
+}
+/* ***********STYLING FOR TABLETS********************* */
+@media (max-width: 768px) {
+    section {
+        padding-inline-end: 0rem;
+        padding-block-start: 1.5rem;
+    }
+    header p {
+        /* padding-inline-end: 20rem; */
+    }
+    
 }
