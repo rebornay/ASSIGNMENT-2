@@ -58,47 +58,65 @@ section h1 {
     font-size: 1.5rem;
 }
 
-main {
-    padding-inline-start: 1rem;
-    padding-inline-end: 2rem;
-    /* border: solid 1px navy; */
-    /* height: 767px; */
-    /* width: 390px; */
-}
-
 main p {
     padding-block-start: 1rem;
     padding-block-end: 1rem;
     font-size: 1.25rem;
     font-weight: 500;
     line-height: 30px;
+    padding-inline-start: .8rem;
+    padding-inline-end: .8rem;
 }
 
 /* ***********STYLING FOR PHONE********************* */
 
-@media (min-width: 390px) and (max-width: 420px) {
-    .small, .line {
+@media (min-width: 320px) and (max-width: 420px) {
+    .do_not_display {
        display: none;
     }
 }
 /* ***********STYLING FOR TABLETS********************* */
-@media (max-width: 768px) {
+@media (min-width: 768px) and (max-width: 1114px) {
     section {
         padding-inline-end: 0rem;
         padding-block-start: 1.5rem;
     }
- 
     
 }
 /* ***********STYLING FOR DESKTOP********************* */
 
-/* @media (min-width: 1024px) and (max-width: 1366px)  {
-    body {
+@media (min-width: 1024px) and (max-width: 1366px)  {
+    header, main {
         margin: 0 auto;
         width: 80%;
     }
 
-    .small, .line {
+
+    section {
+        padding-inline-end: 1.5rem;
+        padding-block-start: .5rem;
+        padding-inline-start: 2rem;
+        margin-inline-start: -.5rem;
+    }
+
+    main {
+        background-color: #ffffff;
+        border-bottom: 7px solid #999999;
+        padding-block-start: .7rem;
+    }
+
+    main p {
+        padding-inline: 1.2rem;
+    }
+
+     .bottom {
+        padding-block-start: 3rem;
+        padding-block-end: 3rem;
+        border-top: 7px solid #999999;
+        background-color: #666666;
+     }
+
+    .line {
         display: none;
      }
-} */
+}
