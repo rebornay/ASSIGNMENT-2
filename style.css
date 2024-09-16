@@ -31,12 +31,9 @@ span {
     font-weight: bold;
 }
 
-.small {
-    height: 7px;
-    background-color: #999999;
-}
 
 .line {
+    border-top: 7px solid #999999;
     height: 60px;
     background-color: #666666;
     margin-block-end: 0.438rem;
@@ -79,7 +76,7 @@ main p {
 
 /* ***********STYLING FOR PHONE********************* */
 
-@media (max-width: 393px) {
+@media (min-width: 390px) and (max-width: 420px) {
     .small, .line {
        display: none;
     }
@@ -95,7 +92,7 @@ main p {
 }
 /* ***********STYLING FOR DESKTOP********************* */
 
-@media (min-width: 1024px) and (max-width: 1366px)  {
+/* @media (min-width: 1024px) and (max-width: 1366px)  {
     body {
         margin: 0 auto;
         width: 80%;
@@ -104,4 +101,4 @@ main p {
     .small, .line {
         display: none;
      }
-}
+} */
