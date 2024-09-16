@@ -94,9 +94,10 @@ main p {
 
     section {
         padding-inline-end: 1.5rem;
-        padding-block-start: .5rem;
+        padding-block-start: 1.5rem;
         padding-inline-start: 2rem;
         margin-inline-start: -.5rem;
+        width: 40%;
     }
 
     main {
